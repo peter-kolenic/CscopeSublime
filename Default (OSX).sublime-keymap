@@ -1,6 +1,6 @@
 [
     {
-	"keys": ["super+\\"],
+	"keys": ["ctrl+\\"],
     	"command": "show_overlay",
     	"args":
     	{
@@ -10,7 +10,7 @@
     },
     {
         // Lookup symbol
-        "keys": ["super+l", "super+s"],
+        "keys": ["ctrl+l", "ctrl+s"],
         "command": "cscope",
         "args":
         {
@@ -20,7 +20,7 @@
     },
     {
         // Lookup definition
-        "keys": ["super+l", "super+d"],
+        "keys": ["ctrl+l", "ctrl+d"],
         "command": "cscope",
         "args":
         {
@@ -29,7 +29,7 @@
     },
     {
         // Lookup CalleEs
-        "keys": ["super+l", "super+e"],
+        "keys": ["ctrl+l", "ctrl+e"],
         "command": "cscope",
         "args":
         {
@@ -38,7 +38,7 @@
     },
     {
         // Lookup CalleRs
-        "keys": ["super+l", "super+r"],
+        "keys": ["ctrl+l", "ctrl+r"],
         "command": "cscope",
         "args":
         {
@@ -52,11 +52,11 @@
         "context": [{"key": "selector", "operand": "text.find-in-files"}]
     },
     {
-	"keys": ["super+shift+["],
+	"keys": ["ctrl+shift+["],
     	"command": "goback"
     },
     {
-	"keys": ["super+shift+]"],
+	"keys": ["ctrl+shift+]"],
     	"command": "forward"
     }
 ]
